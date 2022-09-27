@@ -1,0 +1,19 @@
+/* selector de etiqueta */
+nav{
+    background: steelblue;
+    border: 3px dotted black;
+}
+
+h2{
+    color:blue;
+}
+
+
+/* selector de clase */
+.titulo{
+    text-align: center;    
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
