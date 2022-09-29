@@ -4,12 +4,17 @@ h2,h3{
     font-size: 25px;
 }
 
+nav.contenedor{
+    text-decoration:underline;
+}
+
 /*selectores descendientes*/
-.contenedor>p {
+.contenedor p {/*contenido en ... (dentro)*/
+    font-size: 10px;
+}
+
+.contenedor>p {/*primer hijo*/
     font-family: 'Times New Roman', Times, serif;
     color:coral;
 }
 
-nav.contenedor{
-    text-decoration:underline;
-}
