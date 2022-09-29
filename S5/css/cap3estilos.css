@@ -1,0 +1,15 @@
+/*selectores combinados*/
+h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/*selectores descendientes*/
+.contenedor>p {
+    font-family: 'Times New Roman', Times, serif;
+    color:coral;
+}
+
+nav.contenedor{
+    text-decoration:underline;
+}
