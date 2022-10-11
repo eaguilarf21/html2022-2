@@ -28,10 +28,8 @@ body{
     margin-right: 25px; 
     
     margin:80px 160px;
-
     margin-right: auto;
     margin-left: auto;
-
     margin: 0 auto;
     margin: 0 auto 0 auto;*/
 }
@@ -44,5 +42,5 @@ body{
     color:black;
     padding: 20px 20px 30px 40px;
     overflow: hidden ;
+    border: 20px solid deeppink;
 }
-
