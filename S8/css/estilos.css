@@ -1,36 +1,46 @@
 *{
-    margin: 0;   padding: 0;  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  .box{
-    background: orange;
+
+
+  img{
+    display:block;
+    width: 400px;    
+    height: 400px;   
+    object-fit: cover; 
+    margin:80px auto;
+    border: 20px groove orange;
+    
+    /*border-radius: 50px 0 50px 0;*/
+    
+    /*border-top-left-radius: 50px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 10px;*/
+
+    border-radius: 50%;
+  }
+
+  .card{
+    width: 600px;
+    margin:20px auto;
+    border:1px solid black;
+  }
+  .cta{
+    display: block;
+    background-color: crimson;
+    border-radius: 3px;
     width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    margin-top: 40px;
-    
-    /*border: ancho style color*/
-    
-    border: 10px dashed black;
-    
-    border-width: 10px;
-    border-style:solid dashed dotted groove;
-    border-color:brown;
-    /*
-    border-top-color: red;
-    border-top-style: solid;
-    border-top-width: 10px;
-    
-    border-right-color: yellow;
-    border-right-style: dashed;
-    border-right-width: 15px;
-    
-    border-bottom-color: white;
-    border-bottom-style: dotted;
-    border-bottom-width: 20px;
-    
-    border-left-color: black;
-    border-left-style: groove;
-    border-left-width: 25px;
-    */
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin:20px auto;
+  }
+
+  .nombre{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
